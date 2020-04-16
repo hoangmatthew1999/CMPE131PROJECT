@@ -3,13 +3,13 @@
     if(!conn){
         die("connection failed");
     }
-    echo $_GET["account"];
-    echo $_GET["pin"];
+    // echo $_GET["account"];
+    // echo $_GET["pin"];
     $account = $_GET["account"];
     $pin = $_GET["pin"];
 
     $sql = "INSERT INTO bankAccount(accountNumber, pin) VALUES('$account','$pin') ";
-    echo $sql;
+    // echo $sql;
     $result = mysqli_query($conn, $sql);
     if($result){
         echo "The data has been added correctly";
@@ -40,7 +40,7 @@
 </head>
 <body>
 
-<form method = "get">
+<form method = "post">
 account number<input type="text" name ="account"><br>
 pin number<input type="text" name ="pin"><br>
 
