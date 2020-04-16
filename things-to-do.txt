@@ -1,0 +1,10 @@
+Problem statement – A new online only bank is being kickoff.  
+We need a web-based application server to handle normal banking transaction requests.  
+Once registered in the website, 
+
+you can open/close accounts, 
+electronic check deposit via uploaded images and fund transfer one account to another account.  
+If you want to withdraw cash, then customer will go to a real ATM machine and withdraw money using the same user/pin setup during registration.  
+You will simulate with a separate ATM page/screen.  You are responsible to develop the website where customer can connect via web browser as a client.  
+Mobile client is not required for this project.  
+ 

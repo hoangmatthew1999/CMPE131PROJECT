@@ -1,0 +1,65 @@
+
+body
+{
+  background: linear-gradient(to bottom, royalblue 10%, lightblue 100%);
+}
+
+p
+{
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+h1
+{
+  color: black;
+  font-family; monospace;
+  margin-left: 422px;
+  border-radius: 10px;
+  background-color: lightyellow;
+  width: 580px;
+  text-align: center;
+}
+
+ #form
+{
+  background-color: lightyellow;
+  height: 600px;
+  width: 600px;
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 0px;
+  border-radius: 5%;
+
+}
+
+label
+{
+  font-family: monospace;
+  font-size: 18px;
+  color: #333;
+  height: 20px;
+  width: 200px;
+  margin-top: 45px;
+  margin-left: 40px;
+  text-align: justify;
+  margin-right: 0px;
+  float: left;
+}
+
+input
+{
+  height: 20px;
+  width: 300px;
+  border: 1px solid #000;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+#submit
+{
+  font-family: monospace;
+  margin-left: 150px;
+  radius: 10px;
+}
