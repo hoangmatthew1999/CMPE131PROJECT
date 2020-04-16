@@ -10,6 +10,7 @@
         echo " password ";
         echo "<td>".$row['password']."</td>";
         echo "<br/>";
+        echo "hello";
     }
     echo $_GET["name"];
     $delete = "delete from students where username='$_GET[name]'";
